@@ -1,0 +1,32 @@
+package com.class10;
+
+public class GetALL {
+
+	public static void main(String[] args) {
+		
+		
+		String [] names= {"John","Mike","Jane","Talgat","Olga","Mehmet", "Siyar"};
+		int a=3;
+		System.out.println(names[a]);//Talgat
+		a+=2;
+		System.out.println(names[a]);//Mehmet
+		a-=4;
+		
+		int size = names.length;
+		System.out.println(size);
+//		System.out.println(names[a]);//Mike
+//		System.out.println(names[0]);
+//		System.out.println(names[1]);
+//		System.out.println(names[2]);
+		
+		for (int i=0; i<size; i++) {  // to print all our array values
+			System.out.println(names[i]);
+		}
+		
+		
+		
+		
+		
+		
+	}
+}
