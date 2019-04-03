@@ -9,7 +9,7 @@ public class Task {
 
 		String st="Good Evening!";
 		
-		for (int i=st.length()-1; i>=0; i--) {
+		for (int i=st.length()-1; i>=0; i--) { //>=!!
 			System.out.print(st.charAt(i));
 		}
 		    System.out.println();
@@ -32,13 +32,18 @@ public class Task {
 	Suggested baby name: DANRY          Suggested baby name: MAIEL */
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter your first names");
-		System.out.println("Enter the genger of your baby");
-		String firstWname= scan.nextLine();
-		String firstMname=scan.nextLine();
+		System.out.println("Enter M name");
+		System.out.println("Enter W names");
+		System.out.println("Enter the gender of your baby");
+		String firstMname= scan.nextLine();
+		String firstWname=scan.nextLine();
 		String gender=scan.nextLine();
 		
-		
+		if (gender.equalsIgnoreCase("boy")) {
+			System.out.println("Suggested baby name: "+firstMname.substring(0,firstMname.length()/2).concat(firstWname.substring(firstMname.length()/2)));
+		} else if (gender.equalsIgnoreCase("girl")) {
+			System.out.println("Suggested baby name: "+firstWname.substring(0,firstWname.length()/2).concat(firstMname.substring(firstMname.length()/2)));
+		}
 		
 		
 		

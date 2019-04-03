@@ -9,15 +9,15 @@ public class LestedLoop {
 		}
 	
 		/*i want to print  pattern
-		 * 12345678
-		 * 12345678
-		 * 12345678
-		 * 12345678 ---> 5 rows-outer loop and 9 columns-inner loop
-		 * 12345678 */
+		 * 123456789
+		 * 123456789
+		 * 123456789
+		 * 123456789  ---> 5 rows-outer loop and 9 columns-inner loop
+		 * 123456789 */
 
 		for (int i=1; i<=5; i++) {
 			for(int y =1; y<=9; y++) {
-				System.out.print(y);//12345678	
+				System.out.print(y);//1234567896
 			}
 			System.out.println();// creates a new line for us!
 		}
@@ -55,7 +55,7 @@ public class LestedLoop {
 		 *     54321
 		 *     54321
 		 *     54321
-		 *     54321--->rows=4 outer loop and columns=4-inner*/
+		 *     54321--->rows=4 outer loop and columns=5-inner*/
 		
 		for (int a=4; a>0; a--) {
 			for (int b=5;b>0;b--) {
@@ -92,7 +92,7 @@ public class LestedLoop {
 		
 		/*  ******
 		 *  *    *
-		 *  *    *     row=4, column=6
+		 *  *    *    row=4, column=6
 		 *  ******    when our column ==1 or ==6 we print stars!!! and when row ==1 or ==4 we prints stars
 		 */
 		
