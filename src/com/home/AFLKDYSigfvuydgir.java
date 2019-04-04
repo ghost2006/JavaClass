@@ -6,30 +6,24 @@ public class AFLKDYSigfvuydgir {
 
 	public static void main(String[] args) {
 	
-		String d="Good morning all";
+		String weqas = "hello world my name Is wEqas";
+		char[] w = weqas.toCharArray();
+		char empty;
+		for (int i = 0; i <= w.length - 1; i++) {
+			if (w[i] == 'a' || w[i] == 'A' || w[i] == 'e' || w[i] == 'E' || w[i] == 'i' || w[i] == 'I' || w[i] == 'o'
+					|| w[i] == 'O' || w[i] == 'u' || w[i] == 'U') {
+				empty = w[i];
+				System.out.print(empty + ",");
+			}
+	}
+		
+	
+		String replace =weqas.replaceAll("[^aA,eE,iI,oO,uU]", "");
+		//String replace =string.replaceAll("[^aA,eE,iI,oO,uU]", "");
 
-		String [] array =d.split(" ");
-		System.out.println(array.length);
-		
-		for (int i = 0; i<array.length; i++) {
-			System.out.print(array[i]+" ");
-		}
-		System.out.println("_______ ");
-		
-		
-		for (int i= array.length-1;i>=0; i--) { //word by word
-			System.out.print(array[i]+" ");
-		}
-		
-		System.out.println("_______ ");
-		
-		
-		String reverse="";
-	for (int i=d.length()-1;i>=0; i--) { //in reverse order
-		reverse+= d.charAt(i);
+		System.out.println(replace);
 	}
-	System.out.println(reverse);
-	}
+		
 	}
 
 

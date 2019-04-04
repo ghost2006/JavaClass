@@ -15,7 +15,7 @@ public class Computer {
 		comp1.os= "Windows";
 		comp1.brand= "HP";
 				
-		comp1.watchMovie();  //define the behaviour of our object
+		comp1.watchMovie();  //define the behavior of our object
 		comp1.doJavaCoding();
 		comp1.playMusic();
 		
@@ -28,14 +28,14 @@ public class Computer {
 		comp2.os= "Mac OS";
 		comp2.brand="Apple";
 		
-		comp2.watchMovie();  //define the behaviour of our object
+		comp2.watchMovie();  //define the behavior of our object
 		comp2.doJavaCoding(); // when we calling our M it will execute it and print our statement!
 		comp2.playMusic();
 	
 	}
 	
 	void watchMovie() {
-		System.out.println("We can watch movie on a computer "+brand); // it's executable only if we have our main method!!! without it it's only readiable!!
+		System.out.println("We can watch movie on a computer "+brand); // it's executable only if we have our main method!!! without it it's only readable!!
 	}
 	void doJavaCoding() {
 		System.out.println("We can do Java coding on our computer "+brand);// we added the brand to specify the brand of our object
