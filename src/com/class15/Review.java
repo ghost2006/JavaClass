@@ -1,24 +1,25 @@
-package com.class15;
+package com.class15; //starts with upper case
 
 import java.util.Scanner;
 
-public class Review {
-	// Global
-	String eyes;
+public class Review { //everything we have inside of the class{} but outside of the Method we call Global or class level!
+	// methods and variables are member of the class
+	// Global - location where we create our instances 
+	String eyes;// data members
 	String hair;
 	String nose;
 	String shirt;
 
-	public static void main(String[] args) {
-		// Local
+	public static void main(String[] args) { //(String []  args- is a method signature!-without it we won't run our code,we can only read it!)
+		// Local -inside of method
 		String ear = "left ";
 
-		Review weqas = new Review();
+		Review weqas = new Review(); //creating an instance! Weqas here is an object and a variable//method body!
 		weqas.eyes = "blue";
 		weqas.hair = "blue";
 		weqas.nose = "brown";
 		weqas.shirt = "gray";
-		weqas.humanEyes();
+		weqas.humanEyes(); // we calling a method here!
 		weqas.noReturn();
 		Review weqas1 = new Review();
 		weqas1.eyes = "green";
@@ -32,13 +33,13 @@ public class Review {
 		weqas.vowelCountWithReplaceAll();
 	}
 
-	void humanEyes() {
+	void humanEyes() { //starts with lower case // we can't declare one method inside of another one
 		Review weqas = new Review();
 		weqas.eyes = "red";
 		System.out.println(weqas.eyes);
 	}
 
-	void noReturn() {
+	void noReturn() { //void m don't return anything!!!!
 		System.out.println("I do not have a return type");
 	}
 
