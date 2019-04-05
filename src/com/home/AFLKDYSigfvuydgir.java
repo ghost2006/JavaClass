@@ -6,24 +6,43 @@ public class AFLKDYSigfvuydgir {
 
 	public static void main(String[] args) {
 	
-		String weqas = "hello world my name Is wEqas";
-		char[] w = weqas.toCharArray();
-		char empty;
-		for (int i = 0; i <= w.length - 1; i++) {
-			if (w[i] == 'a' || w[i] == 'A' || w[i] == 'e' || w[i] == 'E' || w[i] == 'i' || w[i] == 'I' || w[i] == 'o'
-					|| w[i] == 'O' || w[i] == 'u' || w[i] == 'U') {
-				empty = w[i];
-				System.out.print(empty + ",");
-			}
-	}
+		AFLKDYSigfvuydgir obj= new AFLKDYSigfvuydgir();
+		boolean odd=obj.isOdd(8);
+		System.out.println(odd);
+		obj.name("Lera");		
+		String b=obj.name1("Leraaa");
+		System.out.println(b);
 		
-	
-		String replace =weqas.replaceAll("[^aA,eE,iI,oO,uU]", "");
-		//String replace =string.replaceAll("[^aA,eE,iI,oO,uU]", "");
-
-		System.out.println(replace);
+		obj.palindrome("");
 	}
-		
+		 public boolean isOdd (int a) {
+			if (a%2==0) {
+				return true;
+			}else {
+				return false;
+			}}
+		 
+		 
+		 void name(String a) {
+			 System.out.println(a);
+		 }
+		 String name1( String a) {
+			 return a;
+		 }
+		 void palindrome(String name) {
+			 Scanner scan = new Scanner (System.in);
+			 System.out.println("Enter a word");
+			 String word= scan.nextLine();
+			 String reverse="";
+			 for (int i=word.length()-1; i>=0; i--) {
+				 reverse+=word.charAt(i);
+			 }
+			 if (word.equalsIgnoreCase(reverse)){
+				 System.out.println("Palindrome");
+			 }else {
+				 System.out.println("NOT");
+			 }
+		 }
 	}
 
 

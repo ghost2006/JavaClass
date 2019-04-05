@@ -8,7 +8,7 @@ public class Greetings {
 		obj.hello();
 		// how to find largest number --> instead of printing code of line 19-25? we'll do it in method and then call it!
 		obj.findLargest(20,10); //20--> to a; b=10 (line 19)// calling M FindLargest and passing values as 20 &10
-		obj.findLargest(30,31);//calling M FindLargest and passing values as 30 &31
+		obj.findLargest(30,31);//calling M FindLargest and passing values as 30 &31(we call them arguments!)
 		obj.findLargest(3000,364341);//values a and b
 		obj.helloToInstructor("Awet");
 		obj.helloToInstructor("Arif");

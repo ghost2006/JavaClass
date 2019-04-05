@@ -5,8 +5,8 @@ public class MethodWithReturnValue {
 	public static void main(String[] args) {
 		
 		String str="Hello";
-		int stringLeth=str.length();
-		System.out.println(stringLeth);
+		int stringLength=str.length();
+		System.out.println(stringLength);
 
 		char character=str.charAt(3);
 		System.out.println(character);
@@ -30,11 +30,11 @@ public class MethodWithReturnValue {
 		System.out.println(isOdd);
 	}
 
-	void askHowAreYou(String name) {
+	void askHowAreYou(String name) {// non returnable M
 		System.out.println("How are you "+name);
 	}
 	
-	String  whatIsADay() {
+	String  whatIsADay() { // string our return type!
 		return "Thursday";  // now this M returns a String (so we changed void to String!)
 	}
 	

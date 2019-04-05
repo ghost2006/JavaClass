@@ -16,6 +16,7 @@ public class Task {
 		obj.findIfNumberIsEvenOrOdd(8);
 		
 		obj.findIfNumberIsEvenOrOdd(11);
+		
 		obj.checkIfStringiIPalindrome("");
 	}
 	

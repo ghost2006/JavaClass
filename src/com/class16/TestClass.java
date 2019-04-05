@@ -17,7 +17,7 @@ public class TestClass {
 		
 		
 		//Methods of 2 types:
-		// Built-in : String?Scanner M--> limited & read only
+		// Built-in : String or Scanner M--> limited & read only
 		// User defined: we create them--> unlimited & modifiable
 	}
 

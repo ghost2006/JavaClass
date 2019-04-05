@@ -14,7 +14,7 @@ public class Review { //everything we have inside of the class{} but outside of 
 		// Local -inside of method
 		String ear = "left ";
 
-		Review weqas = new Review(); //creating an instance! Weqas here is an object and a variable//method body!
+		Review weqas = new Review(); //creating an instance! Weqas here is an object and a variable
 		weqas.eyes = "blue";
 		weqas.hair = "blue";
 		weqas.nose = "brown";

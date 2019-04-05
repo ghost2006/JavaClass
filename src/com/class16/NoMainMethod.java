@@ -2,7 +2,7 @@ package com.class16;
 
 public class NoMainMethod {
 
-		//methods and variables are member of the class
+		//methods and variables are members of the class
 		String str;//data members
 		int num;
 		
@@ -17,7 +17,7 @@ public class NoMainMethod {
 			System.out.println("Bye");
 		}
 		
-		public static void main(String[] args) {//method signature
+		public static void main(String[] args) {//method signature or header
 			
 			NoMainMethod obj=new NoMainMethod();//method body
 			
