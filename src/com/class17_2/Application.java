@@ -1,17 +1,18 @@
 package com.class17_2;
 
 import com.class17.Calculator;
+import com.class17.ScannerMethod;
 
 public class Application {
 
 	public static void main(String[] args) {
 		
 		ScannerMethod scnMthd= new ScannerMethod ();
-		 scnMthd.sub();
-		 scnMthd.sum(123,150);
+		// scnMthd.sub();
+		// scnMthd.sum(123,150);
 		 
 		 
-		 Calculator operations= new Calculator();
+		 Calculator operations= new Calculator();// object= instance of the class// instantiation of the class!
 		 int x=10, y=100;
 		 
 		int d= operations.sum(x,y); //if it's public we can use the M 
@@ -19,6 +20,7 @@ public class Application {
 		 
 		// operations.div();// gives the error--> cause it's defined by the default
 	Application app= new Application();
+	
 	System.out.println(app.example6('a'));
 	}
 	
