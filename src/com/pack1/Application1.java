@@ -39,7 +39,7 @@ public class Application1 {
 	System.out.println(Animal.isWild());//for static variables we have to mention the class Animal--> cause it belongs to the class
 	// it daesn't make any sense to do local variables static cause we use it only within M
 	
-	//we don't create the obj if we use STATIC M!!!
+	//we don't need to create the obj if we use STATIC M!!!
 	int my_array []= { -1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }; //from class minimum
 	System.out.println("---Printing the minimum value---");
 	System.out.println(Minimum.minOfValues(my_array));//we should first mention the name of Class Minimum and then we don't need an object!!!!!
@@ -55,7 +55,7 @@ public class Application1 {
 	min.print();
 	
 	System.out.println("--------Task Calculator----------");
-	Calculator calc= new Calculator();
+	Calculator calc= new Calculator(); //should create an object!!! M isn't static
 	int sum =calc.sum(12, 3, 5);
 	System.out.println(calc.sum(12, 3, 5));
 	System.out.println(calc.avarege(12, 3, 5));

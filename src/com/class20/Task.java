@@ -1,4 +1,4 @@
-package com.class18;
+package com.class20;
 
 public class Task {
 /* Do you think the below program is written correctly? If yes, what will be the output?
@@ -111,10 +111,5 @@ Write the access modifiers in the increasing order of their visibility?
 
 private —> default or no access modifiers —> protected —> public
 
-
-
-
-Write an application that asks a user for a first and last names and age and tells the the user his/her category based on the following chart
- * 
  */
 }

@@ -1,8 +1,6 @@
-package com.home;
+package com.class13;
 
-import java.util.Scanner;
-
-public class AFLKDYSigfvuydgir {
+public class StringCombiningOnebyOne {
 
 	public static void main(String[] args) {
 	

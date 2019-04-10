@@ -2,8 +2,8 @@ package com.pack1;
 
 public class Human {
 	
-	static String eyeColour="Brown"; //instance variables. every object'll get the copy of each of them
-	int height=6;
+	static String eyeColour="Brown"; //static variable, only one single copy among all objects
+	int height=6; //instance variables. every object'll get the copy of each of them
 	int weight=180;
 	String gender="F";
 	

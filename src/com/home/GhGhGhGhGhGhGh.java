@@ -2,18 +2,26 @@ package com.home;
 
 public class GhGhGhGhGhGhGh {
 	public static void main(String[] args) {
-		/*Check the number of times that the string "hi" appears anywhere in the given string.
-countHi("abc hi ho") → 1
-countHi("ABChi hi") → 2
-countHi("hihi") → 2 */
 		
-		String str = "hihi";
-		int count = 0;
-		for (int i = 0; i < str.length()-1; i++) {
-			if (str.charAt(i) == 'h' && str.charAt(i + 1) == 'i') {
-				count++;
-			}
+		
+		
+		
+		String s1="lera";
+	    String s2="gowa";
+	   
+	    String finalS="";
+	  
+	    char [] arr= new char [s1.length()+s2.length()];
+	    
+	    for (int i=0,j=0; i<s1.length();i++,j+=2) {
+	    	arr [j]=s1.charAt(i);
+	    	arr[j+1]=s2.charAt(i);
+	    }
+	    for (int k = 0; k < arr.length; k++) {
+			finalS+=arr[k];
 		}
-		System.out.println(count);
+	    System.out.println(finalS);
+	    
+	    
 	}
 }
