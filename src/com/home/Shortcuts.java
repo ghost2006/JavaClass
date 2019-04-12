@@ -17,6 +17,8 @@ public class Shortcuts {
 		// to move the line down or up --> alt and ^ or arrow down
 
 		// to copy line --> ctrl+alt and ^ or arrow down
+		
+		// ctrl+C  --> to stop infinite loop
 
 	}
 

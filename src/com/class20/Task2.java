@@ -1,6 +1,12 @@
 package com.class20;
 public class Task2 {
 
+	 private String name="John";
+	    String name1="Bilal";
+	    protected String name2="Asha";
+	    public String name3="Tetiana";
+	
+	
 	public static void main(String[] args) {
 
 		Task2 obj =new Task2();
@@ -13,6 +19,8 @@ public class Task2 {
 		System.out.println("-----------------------------");
 		for (String word:array) {
 			System.out.println(word);
+			
+			obj.sayHello();
 		}
 	}
  //Create a method that will take 1 parameter as a String and return reversed String. Method should be visibly only within same package.
@@ -44,6 +52,9 @@ public class Task2 {
 		String [] arr = str.split(" ");
 			return arr;
 		}
+	void sayHello() {
+		System.out.println("Hello students");
+	}
 	}
 	
 

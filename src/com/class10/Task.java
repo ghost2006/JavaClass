@@ -16,8 +16,7 @@ public class Task {
 		 * grades[3]='D';
 		 * grades[4]='E';
 		 * grades[5]='F';
-		 * System.out.println(grades[1]);
-		*/
+		 * System.out.println(grades[1]);*/
 		
 		//2.Create an array of names and store all names of your group. Then print your name from that array.
 		//(use 2 different ways of creating an array).
@@ -47,10 +46,13 @@ public class Task {
 		 * words[2]="day";
 		 * words[3]="coding";
 		 * words[4]="is";
-		 *  System.out.println(words[1]+" "+words[4]+" "+words[0]+" "+words[3]+" "+words[2]);
-		 */
+		 *  System.out.println(words[1]+" "+words[4]+" "+words[0]+" "+words[3]+" "+words[2]);*/
+		
+	/*Given an array of ints length 3, return a new array with the elements in reverse order, so {1, 2, 3} becomes {3, 2, 1} */
+	// return new int []{nums[2],nums[1],nums[0]};
+		
+	/* Return an int array length 3 containing the first 3 digits of pi, {3, 1, 4}.	
+	 * return new int[] {3,1,4}; */
 		
 	}
-	
-	
 }
