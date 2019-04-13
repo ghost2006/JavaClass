@@ -32,7 +32,8 @@ public class Dog {
 		
 		dog1.getDogProperties();//affected the breed of 1st and 2 dogs by changing the breed of 3d one
 		dog2.getDogProperties();
-	//3 ways how to access the static var	
+		
+	//3 ways how to access the static variable	
 		System.out.println(breed);//access by it's name
 		System.out.println(Dog.breed);//access by class's name
 		System.out.println(dog3.breed);//access by obj reference,-->not preferred--giving the warning-->The static field Dog.breed should be accessed in a static way

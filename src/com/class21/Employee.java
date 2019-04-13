@@ -17,6 +17,8 @@ public class Employee {
 		Employee emp2= new Employee();
 		emp2.salary=25000;
 		emp2.eID= 234895;
+		emp2.getEmployeeInfo();
+		
 		CEO="Asel";
 		emp2.getEmployeeInfo();
 		emp1.getEmployeeInfo();

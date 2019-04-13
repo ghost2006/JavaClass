@@ -5,7 +5,7 @@ public class TestInstanceVariables {
 	public static void main(String[] args) {
 		
 		InstanceVariables obj=new InstanceVariables();
-		System.out.println(obj.name);
+		System.out.println(obj.name);//we checked the protected variable name ="john"
 	}
 
 }
