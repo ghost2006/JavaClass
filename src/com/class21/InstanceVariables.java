@@ -10,14 +10,14 @@ public class InstanceVariables {
 		System.out.println("---Changing value of local var---");
 		name="Olga";
 		System.out.println(name);//olga
-		
+						
 // creating 1st obj
 		InstanceVariables obj=new InstanceVariables();
 		System.out.println(obj.name);//john
 		System.out.println("---Changing value of instance var---");
 		obj.name="Jack";
 		System.out.println(obj.name);//jack
-		
+								
 // creating 2d obj
 		InstanceVariables obj1=new InstanceVariables();
 		System.out.println(obj1.name);//john

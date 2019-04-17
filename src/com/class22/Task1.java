@@ -5,7 +5,7 @@ public class Task1 {
 	/*Write a program that will have a constructor: one with parameters and second without any parameters.
 	 *  Create a separate Test class where you will execute both of the constructors.*/
 
-	public static String breed="Hysky";
+	public static String breed="Husky";
 	public String name;
 	public String color;
 	public int weight;

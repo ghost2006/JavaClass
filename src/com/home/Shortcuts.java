@@ -19,6 +19,12 @@ public class Shortcuts {
 		// to copy line --> ctrl+alt and ^ or arrow down
 		
 		// ctrl+C  --> to stop infinite loop
+		
+		// ctrl + space --> First option will be constructor and hit enter
+		
+		// hold ctrl + hover over mouse and left click to go to the parent element
+		
+		//ctrl+space after we printed first 3 letters of word--> gives the name of variables/Methods
 
 	}
 

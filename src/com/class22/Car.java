@@ -8,7 +8,7 @@ public class Car {
  	int doors;
  	boolean engine;
  	
- 	Car(){ // can use with access modifiers
+ 	Car(){ // can be used with access modifiers
  		System.out.println("I am the constructor"); // constructor body
  		System.out.println("Hello from CONSTRUCTOR");// doesn't have any return type(void), access mod!!
  	}
@@ -16,8 +16,8 @@ public class Car {
  	public static void main (String [] args) { //static means we can call our M spesifying the class name
  		
  		Car obj =new Car();  // Car() calling our constructor automatically when we creating the object!
- 	// car - className; obj- reference obj/object name; = - assigning operator; new - keywords that creates an object
- 	//Car() - constructor, special type of method or block of code!lives inside of the class and have the same name of the Class!
+ 	// car - className; obj- reference variable/object name; = - assigning operator; new - keyword that creates an object
+ 	//Car() - constructor, special type of method or block of code!lives inside of the class and has the same name of the Class!
  		
  System.out.println(obj.color);// it will take a default value-null; our constructor will initialize the object and it will give the default values to all uninitialized global variables!
  System.out.println(obj.doors); // 0
