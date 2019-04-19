@@ -7,7 +7,7 @@ public class Employee {
 	 * it exists only when we have the inheritance!!! 
 	 * in overloading Method signature should be the same (name and parameters!!!)*/
 	
-	public void getPaid() {// Overriden Method
+	public void getPaid() {// Overridden Method
 		System.out.println("Employee gets paid");
 	}
 }

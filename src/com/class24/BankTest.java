@@ -12,9 +12,9 @@ public class BankTest {
 		interestRate=bank.chargeInterest();
 		System.out.println("bank charges Intrest= "+interestRate);
 		
-		System.out.println(bank.chargeInterest());
-		System.out.println(boa.chargeInterest());
-		System.out.println(pnc.chargeInterest());
+		System.out.println("bank charges Intrest= "+bank.chargeInterest());
+		System.out.println("boa charges Intrest= "+boa.chargeInterest());
+		System.out.println("pnc charges Intrest= "+pnc.chargeInterest());
 		
 	}
 
