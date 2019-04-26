@@ -6,6 +6,6 @@ public class Student extends Person{
 	public Student(String name, String lastName, int age, int grade) {
 		 super(name, lastName, age);
 		 this.grade=grade;
-		 System.out.println(super.name+" "+super.lastName+" "+super.age+" "+grade);
+		 System.out.println(name+" "+lastName+" "+age+" "+grade);// we don't need here super! cause we don't have in child class the same name variables as in Parent!
 	}
 }
