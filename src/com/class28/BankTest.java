@@ -20,6 +20,8 @@ public class BankTest {
 			//bank.hello;
 			System.out.println(Bank.hello);// can access only through static way
 			
+			
+			
 	}
 
 }

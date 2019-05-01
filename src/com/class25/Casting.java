@@ -23,7 +23,7 @@ public class Casting {
 //-------type casting for objects--------------------------
 	
 	//UpCasting--> compiler will do it automatically
-	Payment pay=new MasterCard();//subtype through into supertype!
+	Payment pay=new MasterCard();//we through subtype into supertype!
 	
 	//downCasting
 	//MasterCard mc=new Payment();// trying to put super class into our subclass--> compiler won't allow
