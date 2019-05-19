@@ -54,7 +54,7 @@ public class Task {
 		   drinks.add("Water");
 		   drinks.add("Soda");
 		   
-		   for (int y=0; y<drinks.size(); y++) {
+		   for (int y=0; y<drinks.size(); y++) { //using for loop cause we should have the index to replace the word!!!
 			  String drink= drinks.get(i);
 			  if(drink.contains("a")|| drink.contains("e")) {
 				  drinks.set(y, "water");

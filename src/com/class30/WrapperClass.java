@@ -9,8 +9,10 @@ public class WrapperClass {
 	 System.out.println(integer1);
 	 Integer integer2=10;// AutoBoxing
 	
-	 int num=integer1.intValue();// Unboxing
+	 int num=integer1.intValue();// Unboxing integer.valueOf();
+	 
 	 System.out.println(num);
+
 	 
 	 int num2=integer2; //AutoUnboxing
 }

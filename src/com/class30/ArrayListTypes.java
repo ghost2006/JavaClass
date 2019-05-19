@@ -7,7 +7,7 @@ public class ArrayListTypes {
 	public static void main(String[] args) {
 		
 		//generic array that stores only string objects
-		ArrayList<String>names=new ArrayList<String>();
+		ArrayList<String>names=new ArrayList<String>(); //here we define the type of our objects- Strings
 		names.add("Maria");
 		names.add("Elena");
 		names.add("Sofia");

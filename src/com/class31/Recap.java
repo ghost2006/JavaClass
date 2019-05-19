@@ -1,5 +1,6 @@
 package com.class31;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 public class Recap {
 
@@ -9,7 +10,8 @@ public class Recap {
 		numbers.add(12);//comes from collection
 		numbers.add(0, 13);//specific to all list objects
 		numbers.add(0, 14);
-		System.out.println(numbers.size());
+		
+		System.out.println(numbers.size());//3 
 		System.out.println(numbers.get(2)); //12 has index 2 
 		
 		numbers.set(1, 33);
@@ -31,7 +33,7 @@ public class Recap {
 		Iterator<Integer> it=numbers.iterator();// we can specify the type <>, or may not!!
 		//hasNet(); next(); remove(); --> each class of collection can access these methods
 		while(it.hasNext()) {
-			//int number=it.next();//returns the object
+			//int number=it.next();//returns the object of type int
 			System.out.println(it.next());
 		}
 		
@@ -42,8 +44,9 @@ public class Recap {
 			i++;
 		}
 		
-		
-		
+		System.out.println("---Using Method Sort()---");
+		Collections.sort(numbers);// Collections -utility class
+		System.out.println(numbers);
 		
 	}
 	

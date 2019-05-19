@@ -1,6 +1,7 @@
 package com.class30;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class IntegerArrayList {
 
@@ -21,6 +22,10 @@ public class IntegerArrayList {
 		for (int num:numbers) { // or for(Integer num:numbers){ it'll work both ways cause of unboxing
 			System.out.println(num);
 		}
+		
+		System.out.println("---Using method SORT()---");
+		Collections.sort(numbers);
+		System.out.println(numbers);
 	}
 
 }

@@ -11,7 +11,7 @@ public class ArrayListDuplicateEachValue {
 		for (int i=0; i<=5; i++) { //add 6 values from 0 to 5 inclusively
 			arList.add(i);
 		}
-		System.out.println(arList);
+		System.out.println(arList); // [0, 1, 2, 3, 4, 5]
 	
 		int length = arList.size()*2;
 		

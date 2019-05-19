@@ -1,5 +1,4 @@
 package com.class30;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -40,7 +39,8 @@ public class GetAllValueFromArrayList {
 			System.out.println(it.next());
 		}
 		
-		/* Iterator's methods:
+		/* It's an interface, used to iterate the elements of the collection class.If we need to iterate again we should get a new Iterator.
+		 *  Iterator's methods:
 		 *  public boolean hasNext() – It returns true if iterator has more elements.
         
          *  public object next() – It returns the element and moves the cursor pointer to the next element.

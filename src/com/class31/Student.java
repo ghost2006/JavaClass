@@ -9,6 +9,7 @@ public class Student {
 		this.name=name;
 		this.studentId=studentId;
 	}
+	
 	public void printStudentDetails() {
 		System.out.println(name+" "+studentId);
 		
